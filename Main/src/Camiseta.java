@@ -35,10 +35,4 @@ public class Camiseta implements Produto {
         System.out.println(" foi rep " + reposto);
         System.out.println(" tem " + (estoqueInicial-vendido+reposto));
     }
-
 }
-
-
-
-
-
