@@ -4,8 +4,6 @@ public class Camiseta implements Produto {
     public void codigo(int codigo) {
         codigo=4189283;
         System.out.println(codigo);
-        return codigo();
-
     }
     @Override
     public void descricao(String descricao) {
@@ -26,7 +24,7 @@ public class Camiseta implements Produto {
     }
     @Override
     public void preco(Double preco) {
-        preco=129.90;
+
         System.out.println(preco);
     }
     @Override

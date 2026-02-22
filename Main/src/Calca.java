@@ -1,42 +1,32 @@
 public class Calca implements Produto{
 
     @Override
-    public void codigo() {
-        System.out.println("CAL-002");
+    public void codigo(int codigo) {
+
     }
 
     @Override
-    public void descricao() {
-        System.out.println("Camisa média");
+    public void descricao(String descricao) {
+
     }
 
     @Override
-    public void tamanho() {
-        System.out.println("Tamanho 46");
+    public void tamanho(String tamanho) {
+
     }
 
     @Override
-    public void cor() {
-        System.out.println("Preta");
+    public void cor(String cor) {
+
     }
 
     @Override
-    public void preco() {
-        System.out.println(129.9);
-    }
-
-    @Override
-    public void repor(int repor) {
+    public void preco(Double preco) {
 
     }
 
     @Override
     public void estoque(int estoque, int reposto, int estoqueInicial) {
-        estoque=100;
-    }
-
-    @Override
-    public void vender(int vender) {
 
     }
 }
